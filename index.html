@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste Hotel da Luana</title>
+    <title>Sun of Paradise</title>
     <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -31,7 +31,7 @@
         <div class="container" id="nav-container">
             <nav class="navbar navbar-expand-lg fixed-top">
                 <a href="a" class="navbar-brand">
-                    <img id="logo" src="hotel-sun-logo.png" alt="logo hotel"> Sun of Paradise
+                    <img id="logo" src="logo.png" alt="logo hotel"> Sun of Paradise
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -50,47 +50,117 @@
     </header>
     <main>
         <div class="container-fluid">
+            <!-- Slider -->
             <div id= "mainSlider" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-target="mainSlider" data-slide-to="0" class="active"></li>
-                    <li data-target="mainSlider" data-slide-to="1"></li>
-                    <li data-target="mainSlider" data-slide-to="2"></li>
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="1"></li>
+                    <li data-target="#mainSlider" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="frente.jpg" class="d-block w-100" alt="O Hotel">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Conheça nosso Hotel</h2>
-                            <p>Sinta-se em casa</p>
-                            <a href="a" class="main-btn">Reserve já</a>
+                        <img src="new.jpeg" class="d-block w-100" alt="O Hotel">
+                        <div class="carousel-caption d-md-block">
+                            <h2 style="font-weight: bold;"></i>Bem Vindo ao Sun of Paradise</h2>
+                            <p style="font-size: 32px;">Sinta-se em casa</p>
+                            <a href="#" class="main-btn">Reserve já</a>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="noite.jpg" class="d-block w-100" alt="Noite maravilhosa">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Deseja roites calmas e relaxantes?</h2>
-                            <p>Aqui é o melhor lugar</p>
-                            <a href="a" class="main-btn">Reserve já</a>
+                        <img src="frentenova.jpeg" class="d-block w-100" alt="Noite maravilhosa">
+                        <div class="carousel-caption d-md-block">
+                            <h2>Venha ter um inesquecível contato com a natureza</h2>
+                            <p style="font-size: 32px;">E apreciar lindas paisagens</p>
+                            <a href="#" class="main-btn">Reserve já</a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="recepcaog.jpg" class="d-block w-100" alt="Equipe preparada">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Nossa equipe está preparada para atendê-lo</h2>
-                            <p>Seguimos os mais rígidos protocolos de segurança</p>
-                            <a href="a" class="main-btn">Reserve já</a>
+                        <div class="carousel-caption d-md-block">
+                            <h2>Estamos aptos a atender você!</h2>
+                            <p style="font-size: 28px;">Seguimos os mais rígidos protocolos de segurança contra a Covid-19 </p>
+                            <a href="#" class="main-btn">Reserve já</a>
                         </div>
                     </div>                
                 </div>
-                <a href="mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a href="mainSlider" class="carousel-control-next" role="button" data-slide="next">
+                <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+            <!-- Sobre a empresa -->
+            <div id="about-area">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-12"> 
+                        <h3 class="main-title">Sobre o Hotel</h3>
+                      </div>
+                      <div class="col-md-6">
+                        <img class="img-fluid" src="hotel2.jpeg" alt="Hotel Sun of Paradise">
+                      </div>
+                      <div class="col-md-6">
+                        <h3 class="about-title">Um lugar para se apaixonar</h3>
+                        <p>Venha se hospedar conosco!</p>
+                        <p>Com uma arquitetura única, amplos quartos e maravilhosas áreas de lazer.
+                        Temos também vários ambientes aconchegantes para você estudar ou trabahar.</p>
+                        <p>Veja outros diferenciais:</p>
+                        <ul id="about-list">
+                          <li><i class="fas fa-check"></i> Diversas opções de laser pra você e sua família</li>
+                          <li><i class="fas fa-check"></i> Piscinas adultas e infantis</li>
+                          <li><i class="fas fa-check"></i> Atividades para as crianças</li>
+                          <li><i class="fas fa-check"></i> Chef's gastronômicos cuidando de suas refeições </li>
+                          <li><i class="fas fa-check"></i> Passeios com guia turístico</li>
+                          <li><i class="fas fa-check"></i> Cuidaremos com carinho do seu pet</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <!-- Serviços do Hotel -->
+              <div id="services-area">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Tudo pensado nos mínimos detalhes</h3>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-dumbbell"></i>
+                      <h4>Academia</h4>
+                      <p>Com equipamentos de última geração e personais trainers preparados.</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-video"></i>
+                      <h4>Cinema</h4>
+                      <p>Filmes pra todas as idades e gostos, direto do cinema para você.</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-child"></i>
+                      <h4>Áreas de lazer infantis</h4>
+                      <p>Parquinhos, sala de arte, teatro, dinâmicas... A diversão está garantida! </p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-gamepad"></i>
+                      <h4>Sala de jogos</h4>
+                      <p>Venha se divertir com seus amigos e sua família! Para todas as idades.</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-futbol"></i>
+                      <h4>Quadras de esportes</h4>
+                      <p>Futebol, futsal, vôlei, basquete, badminton e muitos outros. Monte seu time e venha!</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-paw"></i>
+                      <h4>Hotelzinho para pets</h4>
+                      <p>Traga seu Pet, temos atividades especiais para eles. Temos profissionais capacitados à disposição.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Dados do Hotel -->
         </div>
     </main>
     
