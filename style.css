@@ -49,6 +49,19 @@ header, .navbar {
     padding: 1rem .8rem;  /* unidades de medida que se adaptam de acordo com a fonte da página. Trabalha com elemento root */ 
 }
 
+.nav-item.active {
+  border-bottom: 3px solid #FFF;
+} 
+
+/* 
+button.navbar-toggler {
+  background-color: #FFF;
+  appearance: auto;
+  line-height: inherit;
+  white-space: nowrap;
+}  */
+
+
 /* Slider */
 
 .container-fluid {
